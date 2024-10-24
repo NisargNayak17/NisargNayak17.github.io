@@ -18,8 +18,9 @@ window.addEventListener("load",function(){
         document.querySelector(".fa-bars").style.display = "none";
         document.querySelector(".fa-times").style.display = "block";  
     }
+    https://script.google.com/macros/s/AKfycbz3s9cIle_WZDqHa6DZ_PmbjaVLi_hxD0FC5KkB8xgeCjmcgWn4xvqYAQYf7D9qtilhlQ/exec
     
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyRvdQVlq8J3Srfe98ECv7S5A-IzwET_wu_bB4oDfoVUT9Jlqt_INne5NybU-zhrYAJ/exec'
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz3s9cIle_WZDqHa6DZ_PmbjaVLi_hxD0FC5KkB8xgeCjmcgWn4xvqYAQYf7D9qtilhlQ/exec'
     const form = document.forms['submit-to-google-sheet']
     const msg = document.getElementById("msg");
     
