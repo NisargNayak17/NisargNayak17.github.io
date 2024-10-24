@@ -259,6 +259,9 @@ h3{
     display: flex;
     flex-wrap: wrap;
 }
+.contact-row a{
+    color:black;
+}
 .contact-col-1{
     flex: 1;
     padding: 10px;
