@@ -16,7 +16,7 @@ window.addEventListener("load",function(){
         sidebar.style.right="0";
         sidebar.style.display="block";
         document.querySelector(".fa-bars").style.display = "none";
-        document.querySelector(".fa-times").style.display = "block";  
+        document.querySelector(".fa-times").style.display = "block";
     }
     
     const scriptURL = 'https://script.google.com/macros/s/AKfycbz3s9cIle_WZDqHa6DZ_PmbjaVLi_hxD0FC5KkB8xgeCjmcgWn4xvqYAQYf7D9qtilhlQ/exec'
