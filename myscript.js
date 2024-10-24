@@ -27,8 +27,7 @@ window.addEventListener("load",function(){
         e.preventDefault()
         fetch(scriptURL, {
             method: 'POST',
-            body: new FormData(form),
-            mode: 'no-cors' // Adding the no-cors mode
+            body: new FormData(form)
         })
           .then(response => {
             msg.innerHTML = "Message sent successfully";
