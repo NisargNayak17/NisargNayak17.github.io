@@ -261,6 +261,7 @@ h3{
 }
 .contact-row a{
     color:black;
+    text-decoration: none;
 }
 .contact-col-1{
     flex: 1;
@@ -268,6 +269,11 @@ h3{
     box-sizing: border-box;
     max-width: 350px;
     align-items: center;
+}
+.contact-col-1 .fa-solid a{
+    font-size: 14px;
+    margin-left:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .social-icons{
     display: flex;
