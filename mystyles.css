@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0; 
-    color: black;  
+    color: black; 
     box-sizing: border-box;
     font-weight: 500;
 }
@@ -188,18 +188,14 @@ h3{
 .skill-data:hover{
     border:2px solid darkmagenta;
     border-radius: 10px;
-    transform: scale(1.05);
 }
 .skill-data:hover p{
     color:darkred;
-    padding: 5px;
-    font-weight: 500;
 }
 .skill-data:hover i{
     animation-name:flip;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    font-size: 30px;
     color: red;
 }
 @keyframes flip {
